@@ -9,6 +9,11 @@ Capabilities of this tool set:
 4. Terminal call
 5. Running LaTeX as many times as necessary to generate `dvi` output or `pdf` output.
 
+Requirements
+============
+
+1. Gedit External Tools plugin.
+
 Installation
 ============
 
