@@ -1,0 +1,10 @@
+#!/bin/bash
+
+destination=~/.config/gedit/tools
+
+f=`dirname "$0"`
+
+mkdir -p $destination
+
+cp $f/*.sh $destination
+
