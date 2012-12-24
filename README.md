@@ -21,6 +21,12 @@ Installation
 
 1. Run `install-latex-external-tools`
 
+Usage
+=====
+
+1. Open a .tex file in Gedit
+2. Go to `Tools >> External Tools` and select one of the tools.
+
 Test
 ====
 
