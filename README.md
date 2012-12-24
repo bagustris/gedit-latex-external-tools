@@ -1,0 +1,2 @@
+gedit-latex-external-tools
+==========================
