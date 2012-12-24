@@ -13,6 +13,8 @@ Requirements
 ============
 
 1. Gedit External Tools plugin.
+2. LaTeX wrapper `rubber`
+3. DVI viewer `xdvi`
 
 Installation
 ============
