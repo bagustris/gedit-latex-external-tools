@@ -25,7 +25,7 @@ Usage
 =====
 
 1. Open a .tex file in Gedit
-2. Go to `Tools >> External Tools` and select one of the tools.
+2. Go to the `Tools >> External Tools` menu and select one of the tools.
 
 Test
 ====
