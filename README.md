@@ -32,4 +32,3 @@ Test
 
 Only tested in Linux Mint 14, Mate Desktop, and Gedit 3.6.1.
 
-

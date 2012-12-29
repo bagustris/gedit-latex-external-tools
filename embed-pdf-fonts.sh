@@ -8,17 +8,18 @@
 # Input=nothing
 # Save-files=nothing
 
-
 filename=$GEDIT_CURRENT_DOCUMENT_NAME
 basename=${filename%.*}
 
-
+# Embedd fonts into a temp PDF file
 ps2pdf -dPDFSETTINGS=/prepress "$basename.pdf" temp-embedding.pdf
+
+# Remove original PDF
 rm -f "$basename.pdf"
+
+# Rename temp PDF
 mv -f temp-embedding.pdf "$basename.pdf"
-mate-open "$basename.pdf"
 
-
-
-
+# Open PDF
+xdg-open "$basename.pdf"
 

@@ -8,5 +8,7 @@
 # Input=nothing
 # Save-files=nothing
 
+# Although Gedit has a terminal plugin, I find too limited.
 
+# Call default terminal
 x-terminal-emulator --working-directory="$GEDIT_CURRENT_DOCUMENT_DIR"
