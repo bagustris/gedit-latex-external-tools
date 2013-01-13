@@ -39,6 +39,6 @@ rm -f "$directory"/*~ \
 rm -f "$directory"/*.bak \
       "$directory"/*.tex.backup
 
-# Some LaTeX editors create gargae directories
+# Some LaTeX editors create garbage directories
 rm -fR "$directory"/auto
 
