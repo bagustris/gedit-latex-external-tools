@@ -21,5 +21,5 @@ rm -f "$basename.pdf"
 mv -f temp-embedding.pdf "$basename.pdf"
 
 # Open PDF
-xdg-open "$basename.pdf"
+xdg-open "$basename.pdf" &
 

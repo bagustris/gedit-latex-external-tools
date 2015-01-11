@@ -19,5 +19,5 @@ rubber --inplace --maxerr -1 --short --force --warn all --ps --pdf  "$filename"
 rm -f "$basename.ps"
 
 # Open PDF output
-xdg-open "$basename.pdf"
+xdg-open "$basename.pdf" &
 

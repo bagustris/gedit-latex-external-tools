@@ -22,5 +22,5 @@ xdvi -expertmode 31 \
      -sourceposition $line:"$tex_filename" \
      -s 6 \
      -bg $color \
-     -editor gedit "$dvi_filename"
+     -editor gedit "$dvi_filename" &
 

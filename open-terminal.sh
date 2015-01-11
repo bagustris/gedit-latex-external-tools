@@ -11,4 +11,4 @@
 # Although Gedit has a terminal plugin, I find it too limited.
 
 # Call default terminal
-x-terminal-emulator --working-directory="$GEDIT_CURRENT_DOCUMENT_DIR"
+x-terminal-emulator --working-directory="$GEDIT_CURRENT_DOCUMENT_DIR" &
