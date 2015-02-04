@@ -20,7 +20,10 @@ extensions="acn acr alg aux bbl blg dvi \
             lyx maf mp mtc mtc1 nav nlo \
             out pdfsync snm spl synctex \
             synctex.gz tmp toc top tui vrb \
-            swp fls dep"
+            swp fls dep bdx bnd auxx \
+            idv lg glo gls glg acr acn alg \
+            mlf ptc plf plt stc slf slt \
+            maf mld mlo los"
 
 for databaseName in $extensions; do
   rm -f "$directory"/*.$databaseName
