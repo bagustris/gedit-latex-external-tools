@@ -13,11 +13,13 @@ basename=${filename%.*}
 
 CONFIG_FILE=`eval echo  "~/.config/gedit/tools/bd-zip.cfg"`
 
-bundledoc --localonly \
+bundledoc --verbose \
+          --localonly \
           --config=$CONFIG_FILE \
           --listdeps=yes \
           --nokeepdirs \
           --exclude=.out \
+          --include="*.bib" \
           --manifest="" \
           "$basename".dep
 

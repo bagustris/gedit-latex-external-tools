@@ -7,4 +7,5 @@ f=`dirname "$0"`
 mkdir -p $destination
 
 cp $f/*.sh $destination
+cp $f/*.cfg $destination
 
