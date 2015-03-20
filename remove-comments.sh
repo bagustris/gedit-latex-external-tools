@@ -10,4 +10,6 @@
 
 filename=$GEDIT_CURRENT_DOCUMENT_NAME
 basename=${filename%.*}
+
+
 perl -pe 's/(^|[^\\])%.*/\1%/' < "$basename.tex" > "$basename-cleaned.tex"

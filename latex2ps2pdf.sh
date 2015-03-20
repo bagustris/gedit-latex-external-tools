@@ -16,7 +16,7 @@ basename=${filename%.*}
 rubber --inplace --maxerr -1 --short --force --warn all --ps --pdf  "$filename"
 
 # Remove intermediate PS output
-rm -f "$basename.ps"
+#rm -f "$basename.ps"
 
 # Open PDF output
 xdg-open "$basename.pdf" &
