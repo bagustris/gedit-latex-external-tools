@@ -11,7 +11,7 @@
 filename=$GEDIT_CURRENT_DOCUMENT_NAME
 basename=${filename%.*}
 
-CONFIG_FILE=`eval echo  "~/.config/gedit/tools/bd-zip.cfg"`
+CONFIG_FILE=`eval echo "~/.config/gedit/tools/bd-zip.cfg"`
 
 bundledoc --verbose \
           --localonly \

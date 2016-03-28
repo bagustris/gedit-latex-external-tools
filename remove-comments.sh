@@ -12,4 +12,9 @@ filename=$GEDIT_CURRENT_DOCUMENT_NAME
 basename=${filename%.*}
 
 
-perl -pe 's/(^|[^\\])%.*/\1%/' < "$basename.tex" > "$basename-cleaned.tex"
+#perl -pe 's/(^|[^\\])%.*/\1%/' < "$basename.tex" > "$basename-cleaned.tex"
+perl -pe 's/(^|[^\\])%.*/\1%/'< "$basename.tex" | \
+      sed 's/[[:space:]]*$//' > "$basename-cleaned.tex"
+
+
+

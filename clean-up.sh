@@ -35,12 +35,14 @@ rm -f "$directory"/"$shortname.ps"
 # More garbage
 rm -f "$directory"/*~ \
       "$directory"/"#"*"#" \
-      "$directory"/.??*xml
+      "$directory"/.??*xml \
+      "$directory"/*-eps-converted-to.pdf
 
 # In times of Dropbox with free 30-day history/revision,
 # who needs backup files? Seriously.
 rm -f "$directory"/*.bak \
-      "$directory"/*.tex.backup
+      "$directory"/*.tex.backup \
+      "$directory"/*.bib.backup
 
 # Some LaTeX editors create garbage directories
 rm -fR "$directory"/auto
