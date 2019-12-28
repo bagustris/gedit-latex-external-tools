@@ -16,10 +16,12 @@ Requirements
 2. LaTeX wrapper `rubber`
 3. DVI viewer `xdvi`
 
-Installation
-============
+Installation Commands
+=====================
 
-1. Run `install-latex-external-tools`
+1. `git clone https://github.com/bagustris/gedit-latex-external-tools.git`
+2. `cd gedit-latex-external-tools`
+3. `./install-latex-external-tools`
 
 Usage
 =====
@@ -30,5 +32,4 @@ Usage
 Test
 ====
 
-Only tested in Linux Mint 14, Mate Desktop, and Gedit 3.6.1.
-
+Only tested in Ubuntu 14.94, Mate Desktop, and Gedit 3.18.3
