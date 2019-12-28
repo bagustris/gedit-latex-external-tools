@@ -30,9 +30,10 @@ Usage and shorcuts
 2. Go to the `Tools >> External Tools` menu and select one of the tools.
 3. The following is the screenshot of the tools, the most important shortcut 
    is latex to pdf which is `Ctrl+1` in default setting.
-![Latex Tool](./Screnshot_latex_external.png)
+   
+![Latex Tool](Screenshot_latex_external.png)
 
 Test
 ====
 
-Only tested in Ubuntu 14.94, Mate Desktop, and Gedit 3.18.3
+Tested in Ubuntu 14.94, Mate Desktop, and Gedit 3.18.3
